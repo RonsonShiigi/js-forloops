@@ -138,6 +138,7 @@ nope
 turn
 */
 
+console.log(oopsArray.reverse());
 
 /* 9) Siesta Time
 Declare a variable named `napSchedule` and assign its value to the following array: `[false, false, true, false, true, true]`
