@@ -96,6 +96,17 @@ Declare a variable named `oddSum` and assign it to the Number value 0.
 Write a for-loop that will sum up odd numbers to the `oddSum` variable. We want to add 50 odd numbers starting from 1.
 Console.log your results.
 */
+
+var oddSum = 0;
+for(var i = 0; i < 102; i++){
+
+if(i % 2 === 1){
+
+ oddSum+=i;
+}
+
+}
+console.log('the sum is ',oddSum);
   
 
 /* 7) Oops There It is
