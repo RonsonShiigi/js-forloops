@@ -13,7 +13,7 @@ var service = [i];
 for (var i = 0; i<21 ; i++){
   console.log('Now serving '+ i);
 }
-console.log(service);
+
 /* 2) Pop Charts
 Write a for-loop that will iterate through the topFive array below and console.log the following message:
 This week's chart buster is: 'Closer.'
@@ -24,6 +24,11 @@ This week's chart buster is: '24K Magic.'
 */
 
 var topFive = ["Closer", "Starboy", "I Feel It Coming", "Let Me Love You", "24K Magic"];
+
+for (var i = 0; i<topFive.length; i++){
+
+  console.log('This weeks chart buster is: ' + topFive[i]);
+}
 
 
 /* 3) Dead Presidents
