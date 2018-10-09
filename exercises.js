@@ -50,7 +50,13 @@ This function will iterate through the person parameter and console.log the foll
 
 "President person was a great leader."
 */
+var presidents = ['Washington', 'Adams', 'Jefferson', 'Madsion', 'Monroe'];
+console.log('list length', presidents.length);
+for( var i = 0; i<presidents.length; i++){
 
+  console.log("The value at " + i + " is " + presidents[i]);
+
+}
 
 /* 4) Line Number
 Declare a variable named `stringOfNumbers` and assign its value to an empty string. 
