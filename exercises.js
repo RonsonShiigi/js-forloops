@@ -186,7 +186,7 @@ var valuesArray = [99,66,829,1941,8,76];
 var copyValuesArray = [];
 
 function copyArray(originArray,destinationArray){
-for(i=-0; i<originArray.length; i++){
+for(var i=-0; i<originArray.length; i++){
 destinationArray.push(originArray[i]);
 
 }
@@ -207,6 +207,7 @@ Write a function that will iterate through the string value and return the longe
 
 
 
+
 /* 12) Puppet Master
 Declare a variable named `miscStorage` set it's value to be: `[ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush' ]`
 Write a function named `generateArrayOfStrings` which takes a single argument `storage`. This function will return a new Array with only `String` values inside of it.
@@ -215,6 +216,24 @@ Write a function named `generateArrayOfStrings` which takes a single argument `s
    @return Datatype: Array
 
 */
+var miscStorage = [ [], 'Carrots', 9, 'Beets', {}, {name: "Todd B."}, 'Mush'];
+var stringStorage = [];
+
+function generateArrayOfStrings(shop){
+
+  for(var i=0; i<shop.length; i++){
+    if( typeof shop[i] === typeof ""){
+
+      stringStorage.push(shop[i]);
+    }
+
+  }
+
+
+}
+generateArrayOfStrings(miscStorage);
+console.log(stringStorage);
+
 
 
 
